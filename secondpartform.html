@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="">
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        <table>
+            <tr>
+                <td><label for="name">Họ và tên</label></td>
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Ngày sinh</label></td>
+                <td><input type="date" name="date" id="date"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Giới tính</label></td>
+                <td>
+                    <input type="radio" name="gender" id="men">
+                    <label for="men">Nam</label>
+                    <input type="radio" name="gender" id="women">
+                    <label for="women">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address">Địa chỉ</label></td>
+                <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="class">Lớp</label></td>
+                <td>
+                    <select name="class" id="class">
+                        <option value="">- Chọn lớp -</option>
+                        <option value="12A">12A</option>
+                        <option value="12B">12B</option>
+                        <option value="12C">12C</option>
+                        <option value="12D">12D</option>
+                        <option value="12E">12E</option>
+                        <option value="12F">12F</option>
+                        <option value="12G">12G</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td colspan="2"><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Số điện thoại</label></td>
+                <td colspan="2"><input type="tel" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Đăng ký">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
